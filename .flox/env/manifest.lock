@@ -1,0 +1,388 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "schema-version": "1.16.0",
+    "install": {
+      "commitizen": {
+        "pkg-path": "commitizen"
+      },
+      "gotmplfmt-hugo": {
+        "pkg-path": "gotmplfmt-hugo"
+      },
+      "hugo": {
+        "pkg-path": "hugo"
+      },
+      "prek": {
+        "pkg-path": "prek"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {}
+  },
+  "packages": [
+    {
+      "attr_path": "commitizen",
+      "broken": false,
+      "derivation": "/nix/store/x29whlaykjrdx63xnjhmxhfndk7kyg0v-python3.14-commitizen-4.16.5.drv",
+      "description": "Tool to create committing rules for projects, auto bump versions, and generate changelogs",
+      "install_id": "commitizen",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "name": "python3.14-commitizen-4.16.5",
+      "pname": "commitizen",
+      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "rev_count": 1070770,
+      "rev_date": "2026-09-10T02:20:05Z",
+      "scrape_date": "2026-09-11T04:58:06.693630Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.16.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/70snvyg2n7b4yy6mpzh9xj4ip9yldzlh-python3.14-commitizen-4.16.5-dist",
+        "out": "/nix/store/l3dvf0mspyvknv3a9hn6799ss01qxdnd-python3.14-commitizen-4.16.5"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "commitizen",
+      "broken": false,
+      "derivation": "/nix/store/vx0fpw719hvp0b85zgh0mgwl9v0vxxgw-python3.14-commitizen-4.16.5.drv",
+      "description": "Tool to create committing rules for projects, auto bump versions, and generate changelogs",
+      "install_id": "commitizen",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "name": "python3.14-commitizen-4.16.5",
+      "pname": "commitizen",
+      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "rev_count": 1070770,
+      "rev_date": "2026-09-10T02:20:05Z",
+      "scrape_date": "2026-09-11T05:30:22.305829Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.16.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/k9valwi31x9yvyjm273acaqdgll0v7g4-python3.14-commitizen-4.16.5-dist",
+        "out": "/nix/store/4r2ibr6g1z87y4dcbffvfxr4d04dbhkg-python3.14-commitizen-4.16.5"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "commitizen",
+      "broken": false,
+      "derivation": "/nix/store/kaml6b8gd5fdl8r0l92f9qw0plqz689k-python3.14-commitizen-4.16.5.drv",
+      "description": "Tool to create committing rules for projects, auto bump versions, and generate changelogs",
+      "install_id": "commitizen",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "name": "python3.14-commitizen-4.16.5",
+      "pname": "commitizen",
+      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "rev_count": 1070770,
+      "rev_date": "2026-09-10T02:20:05Z",
+      "scrape_date": "2026-09-11T06:06:41.058118Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.16.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/zznv3ci9ldn5b70y15fnp83dqlbza4mk-python3.14-commitizen-4.16.5-dist",
+        "out": "/nix/store/i8s5a3af85dxhvmghfm8l5aixs6pr5l7-python3.14-commitizen-4.16.5"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gotmplfmt-hugo",
+      "broken": false,
+      "derivation": "/nix/store/mnixwk30b6rqszdcbddhf76k1nv3i6br-gotmplfmt-hugo-0.4.1.drv",
+      "description": "Format Go templates",
+      "install_id": "gotmplfmt-hugo",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "name": "gotmplfmt-hugo-0.4.1",
+      "pname": "gotmplfmt-hugo",
+      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "rev_count": 1070770,
+      "rev_date": "2026-09-10T02:20:05Z",
+      "scrape_date": "2026-09-11T04:58:07.922260Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.4.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/dsyqzllxg9ppsy3gfcryh5m8h05114q9-gotmplfmt-hugo-0.4.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gotmplfmt-hugo",
+      "broken": false,
+      "derivation": "/nix/store/halzm5pb5b6vagv1zd6vp2kw8bwyfbhp-gotmplfmt-hugo-0.4.1.drv",
+      "description": "Format Go templates",
+      "install_id": "gotmplfmt-hugo",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "name": "gotmplfmt-hugo-0.4.1",
+      "pname": "gotmplfmt-hugo",
+      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "rev_count": 1070770,
+      "rev_date": "2026-09-10T02:20:05Z",
+      "scrape_date": "2026-09-11T05:30:24.857877Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.4.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/l0jjlrzns4ahfs5z9a9pwvchbxqgczd8-gotmplfmt-hugo-0.4.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gotmplfmt-hugo",
+      "broken": false,
+      "derivation": "/nix/store/hgs428zlcs6cj9nzvj9wpwg4b0b29n72-gotmplfmt-hugo-0.4.1.drv",
+      "description": "Format Go templates",
+      "install_id": "gotmplfmt-hugo",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "name": "gotmplfmt-hugo-0.4.1",
+      "pname": "gotmplfmt-hugo",
+      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "rev_count": 1070770,
+      "rev_date": "2026-09-10T02:20:05Z",
+      "scrape_date": "2026-09-11T06:06:43.677165Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.4.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/4cwlsh2yg2zqbhfcdg281jqnfkjgpf5g-gotmplfmt-hugo-0.4.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "hugo",
+      "broken": false,
+      "derivation": "/nix/store/rfx80jvpbmx7wiqsb36wc42g8arlm9wc-hugo-0.165.0.drv",
+      "description": "Fast and modern static website engine",
+      "install_id": "hugo",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "name": "hugo-0.165.0",
+      "pname": "hugo",
+      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "rev_count": 1070770,
+      "rev_date": "2026-09-10T02:20:05Z",
+      "scrape_date": "2026-09-11T04:58:22.330544Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.165.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/7fsbd9civpkmnjvqjlzazkny0w92p0wx-hugo-0.165.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "hugo",
+      "broken": false,
+      "derivation": "/nix/store/4jkgv1fngnvmfhhqz5gmignzq5wigv57-hugo-0.165.0.drv",
+      "description": "Fast and modern static website engine",
+      "install_id": "hugo",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "name": "hugo-0.165.0",
+      "pname": "hugo",
+      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "rev_count": 1070770,
+      "rev_date": "2026-09-10T02:20:05Z",
+      "scrape_date": "2026-09-11T05:30:42.521088Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.165.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/8crkpy4riizs0srsbfii9wkpzhqz2g69-hugo-0.165.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "hugo",
+      "broken": false,
+      "derivation": "/nix/store/c68268rkhmnndcv5w6a4vrll4sp2hvgm-hugo-0.165.0.drv",
+      "description": "Fast and modern static website engine",
+      "install_id": "hugo",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "name": "hugo-0.165.0",
+      "pname": "hugo",
+      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "rev_count": 1070770,
+      "rev_date": "2026-09-10T02:20:05Z",
+      "scrape_date": "2026-09-11T06:07:01.933994Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.165.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/945hkik8p6p96alyqxxphawjixvnczga-hugo-0.165.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "prek",
+      "broken": false,
+      "derivation": "/nix/store/5jqn0vjz5nqppps3y8xrlj9mhhcgivwa-prek-0.5.2.drv",
+      "description": "Better `pre-commit`, re-engineered in Rust ",
+      "install_id": "prek",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "name": "prek-0.5.2",
+      "pname": "prek",
+      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "rev_count": 1070770,
+      "rev_date": "2026-09-10T02:20:05Z",
+      "scrape_date": "2026-09-11T04:58:47.083088Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.5.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/myvp74zvzw7bhm40p8f7qrivssj888ad-prek-0.5.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "prek",
+      "broken": false,
+      "derivation": "/nix/store/55vbns1ks243xckya4m3qxm8pzc6x3is-prek-0.5.2.drv",
+      "description": "Better `pre-commit`, re-engineered in Rust ",
+      "install_id": "prek",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "name": "prek-0.5.2",
+      "pname": "prek",
+      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "rev_count": 1070770,
+      "rev_date": "2026-09-10T02:20:05Z",
+      "scrape_date": "2026-09-11T05:31:22.002140Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.5.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/9ml4ari24brnvl12mdkcrbxcjzlnx4qm-prek-0.5.2"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "prek",
+      "broken": false,
+      "derivation": "/nix/store/h3ybcvlag2mg42vvg3ixhxrglz2r6rh9-prek-0.5.2.drv",
+      "description": "Better `pre-commit`, re-engineered in Rust ",
+      "install_id": "prek",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "name": "prek-0.5.2",
+      "pname": "prek",
+      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "rev_count": 1070770,
+      "rev_date": "2026-09-10T02:20:05Z",
+      "scrape_date": "2026-09-11T06:07:44.044313Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.5.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/9qami79aaan9bwxjsc09z8ygjcj3ywwi-prek-0.5.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
