@@ -7,7 +7,9 @@ Designed with [HTML5 Boilerplate][h5bp] and [Tailwind CSS][tailwind] for
 ## Development setup
 
 Using [flox][flox], just run `flox activate`.
-Then, `hugo server --source exampleSite`.
+Then, `hugo server --source exampleSite` to start development server.
+
+Also, run `prek install` to install pre-commit hooks.
 
 [hikari]: https://github.com/mx3m/hikari-for-jekyll/
 [h5bp]: https://html5boilerplate.com/

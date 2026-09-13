@@ -5,15 +5,40 @@
 [[repos]]
 repo = "builtin"
 hooks = [
-    { id = "trailing-whitespace" },
-    { id = "end-of-file-fixer" },
-    { id = "check-added-large-files" },
+  { id = "trailing-whitespace" },
+  { id = "end-of-file-fixer" },
+  { id = "check-added-large-files" },
 ]
 
 [[repos]]
 repo = "https://github.com/commitizen-tools/commitizen"
-rev = "v4.16.5"
+rev = "v4.18.0"
 hooks = [
   { id = "commitizen" },
   { id = "commitizen-branch", stages = ["pre-push"] },
+]
+
+[[repos]]
+repo = "https://github.com/djlint/djLint"
+rev = "v1.46.1"
+hooks = [
+  {
+    id = "djlint-golang",
+    types_or = ["html"],
+  }
+]
+
+[[repos]]
+repo = "https://github.com/34j/mirrors-prettier"
+rev = "v3.9.6"
+hooks = [
+  {
+    id = "prettier",
+    additional_dependencies = [
+      "prettier@3",
+      "@htnabe/prettier-plugin-go-template",
+      "prettier-plugin-organize-attributes",
+      "prettier-plugin-tailwindcss",
+    ],
+  }
 ]
