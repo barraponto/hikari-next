@@ -6,11 +6,15 @@
       "commitizen": {
         "pkg-path": "commitizen"
       },
-      "gotmplfmt-hugo": {
-        "pkg-path": "gotmplfmt-hugo"
+      "djlint": {
+        "pkg-path": "djlint"
       },
       "hugo": {
         "pkg-path": "hugo"
+      },
+      "nodejs": {
+        "pkg-path": "nodejs",
+        "version": "24"
       },
       "prek": {
         "pkg-path": "prek"
@@ -115,90 +119,93 @@
       "priority": 5
     },
     {
-      "attr_path": "gotmplfmt-hugo",
+      "attr_path": "djlint",
       "broken": false,
-      "derivation": "/nix/store/mnixwk30b6rqszdcbddhf76k1nv3i6br-gotmplfmt-hugo-0.4.1.drv",
-      "description": "Format Go templates",
-      "install_id": "gotmplfmt-hugo",
-      "license": "BSD-3-Clause",
+      "derivation": "/nix/store/sz8vyb27gvx6w8a5fjf5jrgbph9rrmsq-djlint-1.43.1.drv",
+      "description": "HTML Template Linter and Formatter. Django - Jinja - Nunjucks - Handlebars - GoLang",
+      "install_id": "djlint",
+      "license": "GPL-3.0-or-later",
       "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "name": "gotmplfmt-hugo-0.4.1",
-      "pname": "gotmplfmt-hugo",
+      "name": "djlint-1.43.1",
+      "pname": "djlint",
       "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
       "rev_count": 1070770,
       "rev_date": "2026-09-10T02:20:05Z",
-      "scrape_date": "2026-09-11T04:58:07.922260Z",
+      "scrape_date": "2026-09-11T04:58:06.967070Z",
       "stabilities": [
         "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "0.4.1",
+      "version": "1.43.1",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/dsyqzllxg9ppsy3gfcryh5m8h05114q9-gotmplfmt-hugo-0.4.1"
+        "dist": "/nix/store/rc25jnzf58amj5rik7a62q8n8f2714kj-djlint-1.43.1-dist",
+        "out": "/nix/store/p4a6i4l9f7mhymcyhs1cldysm422hakx-djlint-1.43.1"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
       "priority": 5
     },
     {
-      "attr_path": "gotmplfmt-hugo",
+      "attr_path": "djlint",
       "broken": false,
-      "derivation": "/nix/store/halzm5pb5b6vagv1zd6vp2kw8bwyfbhp-gotmplfmt-hugo-0.4.1.drv",
-      "description": "Format Go templates",
-      "install_id": "gotmplfmt-hugo",
-      "license": "BSD-3-Clause",
+      "derivation": "/nix/store/aawfx9hilwjd8bndn403nqyp435gkslg-djlint-1.43.1.drv",
+      "description": "HTML Template Linter and Formatter. Django - Jinja - Nunjucks - Handlebars - GoLang",
+      "install_id": "djlint",
+      "license": "GPL-3.0-or-later",
       "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "name": "gotmplfmt-hugo-0.4.1",
-      "pname": "gotmplfmt-hugo",
+      "name": "djlint-1.43.1",
+      "pname": "djlint",
       "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
       "rev_count": 1070770,
       "rev_date": "2026-09-10T02:20:05Z",
-      "scrape_date": "2026-09-11T05:30:24.857877Z",
+      "scrape_date": "2026-09-11T05:30:22.632916Z",
       "stabilities": [
         "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "0.4.1",
+      "version": "1.43.1",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/l0jjlrzns4ahfs5z9a9pwvchbxqgczd8-gotmplfmt-hugo-0.4.1"
+        "dist": "/nix/store/km9l31rpch880zwx8gfz84r505wpkvhn-djlint-1.43.1-dist",
+        "out": "/nix/store/lcq98ih6ik3s652z6s752hm4jdn05n4b-djlint-1.43.1"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
       "priority": 5
     },
     {
-      "attr_path": "gotmplfmt-hugo",
+      "attr_path": "djlint",
       "broken": false,
-      "derivation": "/nix/store/hgs428zlcs6cj9nzvj9wpwg4b0b29n72-gotmplfmt-hugo-0.4.1.drv",
-      "description": "Format Go templates",
-      "install_id": "gotmplfmt-hugo",
-      "license": "BSD-3-Clause",
+      "derivation": "/nix/store/2hhc1n4hzwjy916dh5f8k9qzc2a52mly-djlint-1.43.1.drv",
+      "description": "HTML Template Linter and Formatter. Django - Jinja - Nunjucks - Handlebars - GoLang",
+      "install_id": "djlint",
+      "license": "GPL-3.0-or-later",
       "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "name": "gotmplfmt-hugo-0.4.1",
-      "pname": "gotmplfmt-hugo",
+      "name": "djlint-1.43.1",
+      "pname": "djlint",
       "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
       "rev_count": 1070770,
       "rev_date": "2026-09-10T02:20:05Z",
-      "scrape_date": "2026-09-11T06:06:43.677165Z",
+      "scrape_date": "2026-09-11T06:06:41.429003Z",
       "stabilities": [
         "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "0.4.1",
+      "version": "1.43.1",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/4cwlsh2yg2zqbhfcdg281jqnfkjgpf5g-gotmplfmt-hugo-0.4.1"
+        "dist": "/nix/store/dbna82crvb7rx1q4iyw4slhvddaznxp8-djlint-1.43.1-dist",
+        "out": "/nix/store/ij6rx5283qcfd3pqvnfrgaly3rwbx0y1-djlint-1.43.1"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -289,6 +296,101 @@
       ],
       "outputs": {
         "out": "/nix/store/945hkik8p6p96alyqxxphawjixvnczga-hugo-0.165.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs",
+      "broken": false,
+      "derivation": "/nix/store/6nas5hpjqib23qbkzmzjbsj1iyc0z750-nodejs-24.19.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "name": "nodejs-24.19.0",
+      "pname": "nodejs",
+      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "rev_count": 1070770,
+      "rev_date": "2026-09-10T02:20:05Z",
+      "scrape_date": "2026-09-11T04:58:31.603951Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.19.0",
+      "outputs_to_install": [
+        "out",
+        "out",
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/0n6wnabi4grafrkvnla0ip529rqp6yxp-nodejs-24.19.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs",
+      "broken": false,
+      "derivation": "/nix/store/im10wm681x2d2clzpbmw9y52mv928672-nodejs-24.19.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "name": "nodejs-24.19.0",
+      "pname": "nodejs",
+      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "rev_count": 1070770,
+      "rev_date": "2026-09-10T02:20:05Z",
+      "scrape_date": "2026-09-11T05:31:00.873954Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.19.0",
+      "outputs_to_install": [
+        "out",
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/41xl9pj3ka0wa63fp759wjs9idlksac5-nodejs-24.19.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs",
+      "broken": false,
+      "derivation": "/nix/store/azflkcvc103gq1ddlc5if1r8qpd1xk6c-nodejs-24.19.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "name": "nodejs-24.19.0",
+      "pname": "nodejs",
+      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "rev_count": 1070770,
+      "rev_date": "2026-09-10T02:20:05Z",
+      "scrape_date": "2026-09-11T06:07:22.336706Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.19.0",
+      "outputs_to_install": [
+        "out",
+        "out",
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/lfaydgacdyngci7p60s8wwvgdm74fjkx-nodejs-24.19.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",

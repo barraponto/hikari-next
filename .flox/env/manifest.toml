@@ -8,9 +8,11 @@ schema-version = "1.16.0"
 ## -------------------------------------------------------------------
 [install]
 hugo.pkg-path = "hugo"
-gotmplfmt-hugo.pkg-path = "gotmplfmt-hugo"
 commitizen.pkg-path = "commitizen"
 prek.pkg-path = "prek"
+nodejs.pkg-path = "nodejs"
+nodejs.version = "24"
+djlint.pkg-path = "djlint"
 # gum.pkg-path = "gum"
 # gum.version = "^0.14.5"
 
