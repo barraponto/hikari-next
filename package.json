@@ -1,14 +1,10 @@
 {
   "name": "hikari-next",
   "version": "0.1.0",
-  "description": "port of Hikari theme for hugo",
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "index.css",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Port of Hikari theme for hugo",
+  "license": "MIT",
+  "author": "Capi Huamani <email@barraponto.dev.br> (https://barraponto.dev.br)",
+  "type": "module",
   "devDependencies": {
     "@htnabe/prettier-plugin-go-template": "^0.0.3",
     "@tailwindcss/cli": "^4.3.3",

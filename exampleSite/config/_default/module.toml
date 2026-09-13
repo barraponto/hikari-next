@@ -1,0 +1,9 @@
+[[mounts]]
+disableWatch = true
+source = "hugo_stats.json"
+target = "assets/notwatching/hugo_stats.json"
+
+# Preserves the default `assets` directory
+[[mounts]]
+source = "assets"
+target = "assets"

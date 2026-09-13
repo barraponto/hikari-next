@@ -11,7 +11,10 @@
 <meta name="color-scheme" content="light" />
 <meta name="theme-color" content="#{{ .Site.Params.theme_color }}" />
 
-{{ partialCached "head/css.html" . }}
+{{ with (templates.Defer (dict "key" "global")) }}
+  {{ partial "head/css.html" . }}
+{{ end }}
+
 {{ partialCached "head/js.html" . }}
 
 {{ partial "opengraph.html" . }}

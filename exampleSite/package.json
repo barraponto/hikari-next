@@ -1,0 +1,13 @@
+{
+  "name": "examplesite",
+  "version": "1.0.0",
+  "description": "Example site for Hikari Next theme",
+  "license": "MIT",
+  "author": "Capi Huamani <email@barraponto.dev.br> (https://barraponto.dev.br)",
+  "type": "module",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "@tailwindcss/typography": "^0.5.20",
+    "tailwindcss": "^4.3.3"
+  }
+}

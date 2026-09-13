@@ -1,0 +1,11 @@
+[exec]
+allow = [
+  # Default allowlist
+  "^(dart-)?sass$",
+  "^go$",
+  "^git$",
+  "^node$",
+  "^postcss$",
+  # Tailwind CSS
+  "^tailwindcss$",
+]
