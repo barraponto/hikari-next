@@ -12,7 +12,7 @@ hooks = [
 
 [[repos]]
 repo = "https://github.com/commitizen-tools/commitizen"
-rev = "v4.18.0"
+rev = "v4.19.3"
 hooks = [
   { id = "commitizen" },
   { id = "commitizen-branch", stages = ["pre-push"] },
@@ -20,7 +20,7 @@ hooks = [
 
 [[repos]]
 repo = "https://github.com/djlint/djLint"
-rev = "v1.46.1"
+rev = "v1.48.0"
 hooks = [
   {
     id = "djlint-golang",
@@ -30,7 +30,7 @@ hooks = [
 
 [[repos]]
 repo = "https://github.com/34j/mirrors-prettier"
-rev = "v3.9.6"
+rev = "v3.9.10"
 hooks = [
   {
     id = "prettier",

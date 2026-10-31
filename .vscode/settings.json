@@ -6,5 +6,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "djlint.enableLinting": true,
     "djlint.profile": "golang"
-  }
+  },
+  "djlint.executablePath": ".flox/run/aarch64-darwin.hikari-next-dev/bin/djlint"
 }

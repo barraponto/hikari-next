@@ -28,17 +28,17 @@
     {
       "attr_path": "commitizen",
       "broken": false,
-      "derivation": "/nix/store/x29whlaykjrdx63xnjhmxhfndk7kyg0v-python3.14-commitizen-4.16.5.drv",
+      "derivation": "/nix/store/8347xfb3gfdajdjcdbhc5clmjdz083nd-python3.14-commitizen-4.16.5.drv",
       "description": "Tool to create committing rules for projects, auto bump versions, and generate changelogs",
       "install_id": "commitizen",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=31ecbaca1bdefa45dffc409f0250bd8039ea0010",
       "name": "python3.14-commitizen-4.16.5",
       "pname": "commitizen",
-      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "rev_count": 1070770,
-      "rev_date": "2026-09-10T02:20:05Z",
-      "scrape_date": "2026-09-11T04:58:06.693630Z",
+      "rev": "31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "rev_count": 1103272,
+      "rev_date": "2026-10-27T14:17:15Z",
+      "scrape_date": "2026-10-29T05:48:03.584176Z",
       "stabilities": [
         "staging",
         "unstable"
@@ -49,8 +49,8 @@
         "out"
       ],
       "outputs": {
-        "dist": "/nix/store/70snvyg2n7b4yy6mpzh9xj4ip9yldzlh-python3.14-commitizen-4.16.5-dist",
-        "out": "/nix/store/l3dvf0mspyvknv3a9hn6799ss01qxdnd-python3.14-commitizen-4.16.5"
+        "dist": "/nix/store/4gbvky2ck7428yis3brhamsvmnr6llcw-python3.14-commitizen-4.16.5-dist",
+        "out": "/nix/store/pcsvgsbnhmlipkzkgc9rcizj259l0sd5-python3.14-commitizen-4.16.5"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -59,17 +59,17 @@
     {
       "attr_path": "commitizen",
       "broken": false,
-      "derivation": "/nix/store/vx0fpw719hvp0b85zgh0mgwl9v0vxxgw-python3.14-commitizen-4.16.5.drv",
+      "derivation": "/nix/store/i21ixxa8i291dmya5799dq1vaixnr2sv-python3.14-commitizen-4.16.5.drv",
       "description": "Tool to create committing rules for projects, auto bump versions, and generate changelogs",
       "install_id": "commitizen",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=31ecbaca1bdefa45dffc409f0250bd8039ea0010",
       "name": "python3.14-commitizen-4.16.5",
       "pname": "commitizen",
-      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "rev_count": 1070770,
-      "rev_date": "2026-09-10T02:20:05Z",
-      "scrape_date": "2026-09-11T05:30:22.305829Z",
+      "rev": "31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "rev_count": 1103272,
+      "rev_date": "2026-10-27T14:17:15Z",
+      "scrape_date": "2026-10-29T06:16:32.225215Z",
       "stabilities": [
         "staging",
         "unstable"
@@ -80,8 +80,8 @@
         "out"
       ],
       "outputs": {
-        "dist": "/nix/store/k9valwi31x9yvyjm273acaqdgll0v7g4-python3.14-commitizen-4.16.5-dist",
-        "out": "/nix/store/4r2ibr6g1z87y4dcbffvfxr4d04dbhkg-python3.14-commitizen-4.16.5"
+        "dist": "/nix/store/nifk6p1njzqcs5ifcyd8ln3c81p3yz6h-python3.14-commitizen-4.16.5-dist",
+        "out": "/nix/store/ynbllf6rz0kcj89m8rs27l3arvalkas4-python3.14-commitizen-4.16.5"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -90,17 +90,17 @@
     {
       "attr_path": "commitizen",
       "broken": false,
-      "derivation": "/nix/store/kaml6b8gd5fdl8r0l92f9qw0plqz689k-python3.14-commitizen-4.16.5.drv",
+      "derivation": "/nix/store/7nc12gbvj16q20ylqlrl42yp65yz2lwi-python3.14-commitizen-4.16.5.drv",
       "description": "Tool to create committing rules for projects, auto bump versions, and generate changelogs",
       "install_id": "commitizen",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=31ecbaca1bdefa45dffc409f0250bd8039ea0010",
       "name": "python3.14-commitizen-4.16.5",
       "pname": "commitizen",
-      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "rev_count": 1070770,
-      "rev_date": "2026-09-10T02:20:05Z",
-      "scrape_date": "2026-09-11T06:06:41.058118Z",
+      "rev": "31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "rev_count": 1103272,
+      "rev_date": "2026-10-27T14:17:15Z",
+      "scrape_date": "2026-10-29T06:48:05.438224Z",
       "stabilities": [
         "staging",
         "unstable"
@@ -111,8 +111,8 @@
         "out"
       ],
       "outputs": {
-        "dist": "/nix/store/zznv3ci9ldn5b70y15fnp83dqlbza4mk-python3.14-commitizen-4.16.5-dist",
-        "out": "/nix/store/i8s5a3af85dxhvmghfm8l5aixs6pr5l7-python3.14-commitizen-4.16.5"
+        "dist": "/nix/store/pb6xla1fn0pdk306pg2bzh4y2yk8vmaw-python3.14-commitizen-4.16.5-dist",
+        "out": "/nix/store/6d5s9r7yndyzrpfnwjfg60pynlvnnfb8-python3.14-commitizen-4.16.5"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -121,29 +121,29 @@
     {
       "attr_path": "djlint",
       "broken": false,
-      "derivation": "/nix/store/sz8vyb27gvx6w8a5fjf5jrgbph9rrmsq-djlint-1.43.1.drv",
+      "derivation": "/nix/store/7xna2gp42czh7g63iiwfphvdv093mi4f-djlint-1.44.2.drv",
       "description": "HTML Template Linter and Formatter. Django - Jinja - Nunjucks - Handlebars - GoLang",
       "install_id": "djlint",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "name": "djlint-1.43.1",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "name": "djlint-1.44.2",
       "pname": "djlint",
-      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "rev_count": 1070770,
-      "rev_date": "2026-09-10T02:20:05Z",
-      "scrape_date": "2026-09-11T04:58:06.967070Z",
+      "rev": "31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "rev_count": 1103272,
+      "rev_date": "2026-10-27T14:17:15Z",
+      "scrape_date": "2026-10-29T05:48:03.591915Z",
       "stabilities": [
         "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "1.43.1",
+      "version": "1.44.2",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "dist": "/nix/store/rc25jnzf58amj5rik7a62q8n8f2714kj-djlint-1.43.1-dist",
-        "out": "/nix/store/p4a6i4l9f7mhymcyhs1cldysm422hakx-djlint-1.43.1"
+        "dist": "/nix/store/n9v6z5i9pfzrrkiaas7bmabswb27znjl-djlint-1.44.2-dist",
+        "out": "/nix/store/v177rjil9n96hkqiv9n3fc2vnzam8dyw-djlint-1.44.2"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -152,29 +152,29 @@
     {
       "attr_path": "djlint",
       "broken": false,
-      "derivation": "/nix/store/aawfx9hilwjd8bndn403nqyp435gkslg-djlint-1.43.1.drv",
+      "derivation": "/nix/store/zrm89dmk3dgcdfy566ri4334wsq33kqf-djlint-1.44.2.drv",
       "description": "HTML Template Linter and Formatter. Django - Jinja - Nunjucks - Handlebars - GoLang",
       "install_id": "djlint",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "name": "djlint-1.43.1",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "name": "djlint-1.44.2",
       "pname": "djlint",
-      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "rev_count": 1070770,
-      "rev_date": "2026-09-10T02:20:05Z",
-      "scrape_date": "2026-09-11T05:30:22.632916Z",
+      "rev": "31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "rev_count": 1103272,
+      "rev_date": "2026-10-27T14:17:15Z",
+      "scrape_date": "2026-10-29T06:16:32.289938Z",
       "stabilities": [
         "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "1.43.1",
+      "version": "1.44.2",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "dist": "/nix/store/km9l31rpch880zwx8gfz84r505wpkvhn-djlint-1.43.1-dist",
-        "out": "/nix/store/lcq98ih6ik3s652z6s752hm4jdn05n4b-djlint-1.43.1"
+        "dist": "/nix/store/gsc3xnd54jjswxb764a42y3cjr72x2n0-djlint-1.44.2-dist",
+        "out": "/nix/store/i6kf7fnry7clmr5jbh34hxpgxr9sy5k9-djlint-1.44.2"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -183,29 +183,29 @@
     {
       "attr_path": "djlint",
       "broken": false,
-      "derivation": "/nix/store/2hhc1n4hzwjy916dh5f8k9qzc2a52mly-djlint-1.43.1.drv",
+      "derivation": "/nix/store/f4v2pankyam7pyb4l606hr2hjvcqnj7q-djlint-1.44.2.drv",
       "description": "HTML Template Linter and Formatter. Django - Jinja - Nunjucks - Handlebars - GoLang",
       "install_id": "djlint",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "name": "djlint-1.43.1",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "name": "djlint-1.44.2",
       "pname": "djlint",
-      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "rev_count": 1070770,
-      "rev_date": "2026-09-10T02:20:05Z",
-      "scrape_date": "2026-09-11T06:06:41.429003Z",
+      "rev": "31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "rev_count": 1103272,
+      "rev_date": "2026-10-27T14:17:15Z",
+      "scrape_date": "2026-10-29T06:48:05.444813Z",
       "stabilities": [
         "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "1.43.1",
+      "version": "1.44.2",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "dist": "/nix/store/dbna82crvb7rx1q4iyw4slhvddaznxp8-djlint-1.43.1-dist",
-        "out": "/nix/store/ij6rx5283qcfd3pqvnfrgaly3rwbx0y1-djlint-1.43.1"
+        "dist": "/nix/store/l64qka9s6k3r549kkfyq4mgq68lrbwp8-djlint-1.44.2-dist",
+        "out": "/nix/store/bqpica9m34gxkcvgcahrc7a57ip37nyh-djlint-1.44.2"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -214,28 +214,28 @@
     {
       "attr_path": "hugo",
       "broken": false,
-      "derivation": "/nix/store/rfx80jvpbmx7wiqsb36wc42g8arlm9wc-hugo-0.165.0.drv",
+      "derivation": "/nix/store/2dhs1vgzih67wr7pix02naa1nw74q9lq-hugo-0.168.0.drv",
       "description": "Fast and modern static website engine",
       "install_id": "hugo",
       "license": "Apache-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "name": "hugo-0.165.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "name": "hugo-0.168.0",
       "pname": "hugo",
-      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "rev_count": 1070770,
-      "rev_date": "2026-09-10T02:20:05Z",
-      "scrape_date": "2026-09-11T04:58:22.330544Z",
+      "rev": "31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "rev_count": 1103272,
+      "rev_date": "2026-10-27T14:17:15Z",
+      "scrape_date": "2026-10-29T05:48:03.715645Z",
       "stabilities": [
         "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "0.165.0",
+      "version": "0.168.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/7fsbd9civpkmnjvqjlzazkny0w92p0wx-hugo-0.165.0"
+        "out": "/nix/store/kfx3752n5np6z4b2kpzdjwqyn69k0k5b-hugo-0.168.0"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -244,28 +244,28 @@
     {
       "attr_path": "hugo",
       "broken": false,
-      "derivation": "/nix/store/4jkgv1fngnvmfhhqz5gmignzq5wigv57-hugo-0.165.0.drv",
+      "derivation": "/nix/store/b6iidhapma77qvbdlk28n2p72nb9ic38-hugo-0.168.0.drv",
       "description": "Fast and modern static website engine",
       "install_id": "hugo",
       "license": "Apache-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "name": "hugo-0.165.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "name": "hugo-0.168.0",
       "pname": "hugo",
-      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "rev_count": 1070770,
-      "rev_date": "2026-09-10T02:20:05Z",
-      "scrape_date": "2026-09-11T05:30:42.521088Z",
+      "rev": "31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "rev_count": 1103272,
+      "rev_date": "2026-10-27T14:17:15Z",
+      "scrape_date": "2026-10-29T06:16:32.468192Z",
       "stabilities": [
         "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "0.165.0",
+      "version": "0.168.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/8crkpy4riizs0srsbfii9wkpzhqz2g69-hugo-0.165.0"
+        "out": "/nix/store/8mflrpksx5hifdhjr5mcink40s16d7d5-hugo-0.168.0"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -274,28 +274,28 @@
     {
       "attr_path": "hugo",
       "broken": false,
-      "derivation": "/nix/store/c68268rkhmnndcv5w6a4vrll4sp2hvgm-hugo-0.165.0.drv",
+      "derivation": "/nix/store/kqfwls7hs0amk2jcpwcs1v4hfkjkjmcj-hugo-0.168.0.drv",
       "description": "Fast and modern static website engine",
       "install_id": "hugo",
       "license": "Apache-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "name": "hugo-0.165.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "name": "hugo-0.168.0",
       "pname": "hugo",
-      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "rev_count": 1070770,
-      "rev_date": "2026-09-10T02:20:05Z",
-      "scrape_date": "2026-09-11T06:07:01.933994Z",
+      "rev": "31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "rev_count": 1103272,
+      "rev_date": "2026-10-27T14:17:15Z",
+      "scrape_date": "2026-10-29T06:48:05.579586Z",
       "stabilities": [
         "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "0.165.0",
+      "version": "0.168.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/945hkik8p6p96alyqxxphawjixvnczga-hugo-0.165.0"
+        "out": "/nix/store/9lrdjq46l2daz0m9880ywxkdxmqdzi1r-hugo-0.168.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -304,30 +304,29 @@
     {
       "attr_path": "nodejs",
       "broken": false,
-      "derivation": "/nix/store/6nas5hpjqib23qbkzmzjbsj1iyc0z750-nodejs-24.19.0.drv",
+      "derivation": "/nix/store/i2p2vcalxpyikyrihlf83ccvyn73rfg4-nodejs-24.21.0.drv",
       "description": "Event-driven I/O framework for the V8 JavaScript engine",
       "install_id": "nodejs",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "name": "nodejs-24.19.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "name": "nodejs-24.21.0",
       "pname": "nodejs",
-      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "rev_count": 1070770,
-      "rev_date": "2026-09-10T02:20:05Z",
-      "scrape_date": "2026-09-11T04:58:31.603951Z",
+      "rev": "31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "rev_count": 1103272,
+      "rev_date": "2026-10-27T14:17:15Z",
+      "scrape_date": "2026-10-29T05:48:03.779173Z",
       "stabilities": [
         "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "24.19.0",
+      "version": "24.21.0",
       "outputs_to_install": [
-        "out",
         "out",
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/0n6wnabi4grafrkvnla0ip529rqp6yxp-nodejs-24.19.0"
+        "out": "/nix/store/i376rizbw75rswsg2qlk47wj4zz3biqq-nodejs-24.21.0"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -336,29 +335,29 @@
     {
       "attr_path": "nodejs",
       "broken": false,
-      "derivation": "/nix/store/im10wm681x2d2clzpbmw9y52mv928672-nodejs-24.19.0.drv",
+      "derivation": "/nix/store/pbpcbj48qdzmxzlj4p4mnfy226dq09h7-nodejs-24.21.0.drv",
       "description": "Event-driven I/O framework for the V8 JavaScript engine",
       "install_id": "nodejs",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "name": "nodejs-24.19.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "name": "nodejs-24.21.0",
       "pname": "nodejs",
-      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "rev_count": 1070770,
-      "rev_date": "2026-09-10T02:20:05Z",
-      "scrape_date": "2026-09-11T05:31:00.873954Z",
+      "rev": "31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "rev_count": 1103272,
+      "rev_date": "2026-10-27T14:17:15Z",
+      "scrape_date": "2026-10-29T06:16:32.515341Z",
       "stabilities": [
         "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "24.19.0",
+      "version": "24.21.0",
       "outputs_to_install": [
         "out",
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/41xl9pj3ka0wa63fp759wjs9idlksac5-nodejs-24.19.0"
+        "out": "/nix/store/6vlx51wp6rjcsb1gcx54hfb7ndf3k2h8-nodejs-24.21.0"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -367,30 +366,30 @@
     {
       "attr_path": "nodejs",
       "broken": false,
-      "derivation": "/nix/store/azflkcvc103gq1ddlc5if1r8qpd1xk6c-nodejs-24.19.0.drv",
+      "derivation": "/nix/store/a7mzwdph5vkavini0lj77xph53qhgjlf-nodejs-24.21.0.drv",
       "description": "Event-driven I/O framework for the V8 JavaScript engine",
       "install_id": "nodejs",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "name": "nodejs-24.19.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "name": "nodejs-24.21.0",
       "pname": "nodejs",
-      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "rev_count": 1070770,
-      "rev_date": "2026-09-10T02:20:05Z",
-      "scrape_date": "2026-09-11T06:07:22.336706Z",
+      "rev": "31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "rev_count": 1103272,
+      "rev_date": "2026-10-27T14:17:15Z",
+      "scrape_date": "2026-10-29T06:48:05.625354Z",
       "stabilities": [
         "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "24.19.0",
+      "version": "24.21.0",
       "outputs_to_install": [
         "out",
         "out",
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/lfaydgacdyngci7p60s8wwvgdm74fjkx-nodejs-24.19.0"
+        "out": "/nix/store/j1j9b0w3mhpccdli73ycj5w7nf6fkzqz-nodejs-24.21.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -399,28 +398,28 @@
     {
       "attr_path": "prek",
       "broken": false,
-      "derivation": "/nix/store/5jqn0vjz5nqppps3y8xrlj9mhhcgivwa-prek-0.5.2.drv",
+      "derivation": "/nix/store/vfjf461vsk1xwgb1vhwplyhv1y6ka0pw-prek-0.5.5.drv",
       "description": "Better `pre-commit`, re-engineered in Rust ",
       "install_id": "prek",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "name": "prek-0.5.2",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "name": "prek-0.5.5",
       "pname": "prek",
-      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "rev_count": 1070770,
-      "rev_date": "2026-09-10T02:20:05Z",
-      "scrape_date": "2026-09-11T04:58:47.083088Z",
+      "rev": "31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "rev_count": 1103272,
+      "rev_date": "2026-10-27T14:17:15Z",
+      "scrape_date": "2026-10-29T05:48:03.844904Z",
       "stabilities": [
         "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "0.5.2",
+      "version": "0.5.5",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/myvp74zvzw7bhm40p8f7qrivssj888ad-prek-0.5.2"
+        "out": "/nix/store/w4byqrpalqmlnj7qs75q2ddbgi09csxp-prek-0.5.5"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -429,28 +428,28 @@
     {
       "attr_path": "prek",
       "broken": false,
-      "derivation": "/nix/store/55vbns1ks243xckya4m3qxm8pzc6x3is-prek-0.5.2.drv",
+      "derivation": "/nix/store/lksanskxhnvmls8abj5dpjfx6siik4ss-prek-0.5.5.drv",
       "description": "Better `pre-commit`, re-engineered in Rust ",
       "install_id": "prek",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "name": "prek-0.5.2",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "name": "prek-0.5.5",
       "pname": "prek",
-      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "rev_count": 1070770,
-      "rev_date": "2026-09-10T02:20:05Z",
-      "scrape_date": "2026-09-11T05:31:22.002140Z",
+      "rev": "31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "rev_count": 1103272,
+      "rev_date": "2026-10-27T14:17:15Z",
+      "scrape_date": "2026-10-29T06:16:32.553219Z",
       "stabilities": [
         "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "0.5.2",
+      "version": "0.5.5",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/9ml4ari24brnvl12mdkcrbxcjzlnx4qm-prek-0.5.2"
+        "out": "/nix/store/l0ggvqg03zd6if8h8qi39r66chdhcf04-prek-0.5.5"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -459,28 +458,28 @@
     {
       "attr_path": "prek",
       "broken": false,
-      "derivation": "/nix/store/h3ybcvlag2mg42vvg3ixhxrglz2r6rh9-prek-0.5.2.drv",
+      "derivation": "/nix/store/aid5fiwrqlmi7vw2rs3bbr5n2ppjma63-prek-0.5.5.drv",
       "description": "Better `pre-commit`, re-engineered in Rust ",
       "install_id": "prek",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "name": "prek-0.5.2",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "name": "prek-0.5.5",
       "pname": "prek",
-      "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
-      "rev_count": 1070770,
-      "rev_date": "2026-09-10T02:20:05Z",
-      "scrape_date": "2026-09-11T06:07:44.044313Z",
+      "rev": "31ecbaca1bdefa45dffc409f0250bd8039ea0010",
+      "rev_count": 1103272,
+      "rev_date": "2026-10-27T14:17:15Z",
+      "scrape_date": "2026-10-29T06:48:05.664169Z",
       "stabilities": [
         "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "0.5.2",
+      "version": "0.5.5",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/9qami79aaan9bwxjsc09z8ygjcj3ywwi-prek-0.5.2"
+        "out": "/nix/store/lccksrf23s7v70fjj57wqc4m9p3yyzqg-prek-0.5.5"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
