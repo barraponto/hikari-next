@@ -36,7 +36,7 @@ npm install
 ## Development setup
 
 Using [flox][flox], just run `flox activate`.
-Then, `hugo server --source exampleSite` to start development server.
+Then, `just run-site` to start development server.
 
 Also, run `prek install` to install pre-commit hooks.
 

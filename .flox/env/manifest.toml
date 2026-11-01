@@ -14,6 +14,7 @@ nodejs.pkg-path = "nodejs"
 nodejs.version = "24"
 djlint.pkg-path = "djlint"
 go.pkg-path = "go"
+just.pkg-path = "just"
 # gum.pkg-path = "gum"
 # gum.version = "^0.14.5"
 
