@@ -1,0 +1,17 @@
+[hugoVersion]
+extended = false
+min = '0.146.0'
+
+[[mounts]]
+disableWatch = true
+source = "hugo_stats.json"
+target = "assets/notwatching/hugo_stats.json"
+
+[[mounts]]
+source = "node_modules/@fontsource-variable/open-sans"
+target = "assets/fonts/open-sans"
+
+# Preserves the default `assets` directory
+[[mounts]]
+source = "assets"
+target = "assets"
