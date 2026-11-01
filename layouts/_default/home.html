@@ -1,5 +1,8 @@
 {{ define "main" }}
-  {{ range first 5 site.RegularPages }}
+  {{ $posts := where site.RegularPages.ByDate.Reverse "Section" "posts" }}
+  {{ $paginator := .Paginate $posts 5 }}
+
+  {{ range $paginator.Pages }}
     <section
       class="bg-lavender-500 font-title border-lavender-600 border-be p-7 text-sm first:border-bs"
     >

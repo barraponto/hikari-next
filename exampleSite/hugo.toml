@@ -1,7 +1,8 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = "https://example.org/"
+locale = "en-us"
+title = "My New Hugo Project"
 
-theme = 'hikari-next'
 # needed because exampleSite is in a subdirectory of the theme's root
-themesDir = '../..'
+[module]
+[[module.imports]]
+path = "github.com/barraponto/hikari-next"
