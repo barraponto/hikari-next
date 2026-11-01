@@ -6,14 +6,32 @@ Designed with [HTML5 Boilerplate][h5bp] and [Tailwind CSS][tailwind] for
 
 # Usage
 
-In your project's `hugo.toml`, add the following lines:
+Download the theme to your project's `themes` directory. You can also clone the repository directly:
+
+```sh
+git clone https://github.com/barraponto/hikari-next.git themes/hikari-next
+```
+
+In your project's `hugo.toml`, add the following line:
 
 ```toml
 theme = 'hikari-next'
-themesDir = 'path/to/theme'
 ```
 
-Also, make sure to copy the values from `exampleSite/config` to setup Tailwind CSS.
+Then, copy the values from `config` to setup Tailwind CSS.
+From your project's root, run:
+
+```sh
+mkdir -p config/_default
+cp -ri themes/hikari-next/config/_default/* config/_default/
+```
+
+Finally, install TailwindCSS and Open Sans font:
+
+```sh
+cp themes/hikari-next/package.json .
+npm install
+```
 
 ## Development setup
 

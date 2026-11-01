@@ -7,10 +7,8 @@
   <head>
     {{ partial "head.html" . }}
   </head>
-  <body>
-    <header>
-      {{ partial "header.html" . }}
-    </header>
+  <body class="font-title antialiased">
+    {{ partial "header.html" . }}
     <main>
       {{ block "main" . }}{{ end }}
     </main>

@@ -7,11 +7,14 @@
   "type": "module",
   "devDependencies": {
     "@htnabe/prettier-plugin-go-template": "^0.0.3",
-    "@tailwindcss/cli": "^4.3.3",
-    "@tailwindcss/typography": "^0.5.20",
     "prettier": "^3.9.6",
     "prettier-plugin-organize-attributes": "^1.0.0",
-    "prettier-plugin-tailwindcss": "^0.8.1",
+    "prettier-plugin-tailwindcss": "^0.8.1"
+  },
+  "dependencies": {
+    "@fontsource-variable/open-sans": "^5.3.0",
+    "@tailwindcss/cli": "^4.3.3",
+    "@tailwindcss/typography": "^0.5.20",
     "tailwindcss": "^4.3.3"
   }
 }

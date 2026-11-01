@@ -3,4 +3,5 @@ locale = 'en-us'
 title = 'My New Hugo Project'
 
 theme = 'hikari-next'
+# needed because exampleSite is in a subdirectory of the theme's root
 themesDir = '../..'

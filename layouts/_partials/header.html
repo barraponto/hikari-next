@@ -1,2 +1,7 @@
-<h1>{{ site.Title }}</h1>
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+<header class="flex p-7 text-gray-700">
+  <h1 class="font-title flex-1 text-xl">{{ site.Title }}</h1>
+  {{/* {{ partial "menu.html" (dict "menuID" "main" "page" .) }} */}}
+  <button class="ml-7 flex-none">
+    {{ partial "icons/lucide-menu.html" . }}
+  </button>
+</header>

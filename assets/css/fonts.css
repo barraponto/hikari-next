@@ -1,0 +1,12 @@
+/*
+ * Open Sans font faces
+ * From https://gwfh.mranftl.com/fonts/open-sans?subsets=latin
+ */
+
+/* open-sans-regular - latin */
+@import "../fonts/open-sans/wght.css";
+@import "../fonts/open-sans/wght-italic.css";
+
+@theme {
+  --font-title: "Open Sans", sans-serif;
+}
