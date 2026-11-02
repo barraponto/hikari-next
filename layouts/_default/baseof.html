@@ -7,9 +7,9 @@
   <head>
     {{ partial "head.html" . }}
   </head>
-  <body class="font-title antialiased">
+  <body class="font-title flex min-h-screen flex-col antialiased">
     {{ partial "header.html" . }}
-    <main>
+    <main class="grow">
       {{ block "main" . }}{{ end }}
     </main>
     <footer>

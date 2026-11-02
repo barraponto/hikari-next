@@ -17,4 +17,31 @@
       </h2>
     </section>
   {{ end }}
+
+  {{/* Pagination Navigation Links */}}
+  {{ if or $paginator.HasPrev $paginator.HasNext }}
+    {{ $navStyles := slice
+      "flex mt-10 p-5"
+      "border-y border-gray-200"
+      "divide-x divide-solid divide-gray-200"
+      "text-center text-sm"
+    }}
+    <nav class="{{ delimit $navStyles " " }}">
+      {{ if $paginator.HasPrev }}
+        <a class="text-lavender-500 flex-1" href="{{ $paginator.Prev.URL }}"
+          >Older</a
+        >
+      {{ else }}
+        <span class="flex-1">Older</span>
+      {{ end }}
+
+      {{ if $paginator.HasNext }}
+        <a class="text-lavender-500 flex-1" href="{{ $paginator.Next.URL }}"
+          >Newer</a
+        >
+      {{ else }}
+        <span class="flex-1">Newer </span>
+      {{ end }}
+    </nav>
+  {{ end }}
 {{ end }}

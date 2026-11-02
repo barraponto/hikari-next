@@ -2,7 +2,7 @@
 extended = false
 min = "0.146.0"
 
-# Preserves the default `assets` directory
+# Preserves the default directories
 [[mounts]]
 source = "assets"
 target = "assets"
