@@ -3,11 +3,15 @@
   {{ $paginator := .Paginate $posts 5 }}
 
   {{ range $paginator.Pages }}
-    <section
-      class="bg-lavender-500 font-title border-lavender-400 border-be p-7 text-sm first:border-bs md:p-9 md:text-lg"
-    >
+    {{ $sectionStyles := slice
+      "font-title text-sm md:text-lg lg:text-xl lg:flex"
+      "p-7 md:p-9 lg:px-10 lg:py-14"
+      "border-lavender-400 border-be first:border-bs"
+      "bg-lavender-500"
+    }}
+    <section class="{{ delimit $sectionStyles " " }}">
       <time
-        class="text-lavender-700"
+        class="text-lavender-800 w-40"
         datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"
       >
         {{ .Date.Format "2 Jan 2006" }}
