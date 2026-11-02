@@ -4,7 +4,7 @@
 
   {{ range $paginator.Pages }}
     <section
-      class="bg-lavender-500 font-title border-lavender-600 border-be p-7 text-sm first:border-bs"
+      class="bg-lavender-500 font-title border-lavender-400 border-be p-7 text-sm first:border-bs md:p-9 md:text-lg"
     >
       <time
         class="text-lavender-700"
@@ -24,23 +24,23 @@
       "flex mt-10 p-5"
       "border-y border-gray-200"
       "divide-x divide-solid divide-gray-200"
-      "text-center text-sm"
+      "text-center text-sm md:text-lg"
     }}
     <nav class="{{ delimit $navStyles " " }}">
-      {{ if $paginator.HasPrev }}
-        <a class="text-lavender-500 flex-1" href="{{ $paginator.Prev.URL }}"
+      {{ if $paginator.HasNext }}
+        <a class="text-lavender-500 flex-1" href="{{ $paginator.Next.URL }}"
           >Older</a
         >
       {{ else }}
-        <span class="flex-1">Older</span>
+        <span class="flex-1 text-gray-300">Older</span>
       {{ end }}
 
-      {{ if $paginator.HasNext }}
-        <a class="text-lavender-500 flex-1" href="{{ $paginator.Next.URL }}"
+      {{ if $paginator.HasPrev }}
+        <a class="text-lavender-500 flex-1" href="{{ $paginator.Prev.URL }}"
           >Newer</a
         >
       {{ else }}
-        <span class="flex-1">Newer </span>
+        <span class="flex-1 text-gray-300">Newer</span>
       {{ end }}
     </nav>
   {{ end }}
