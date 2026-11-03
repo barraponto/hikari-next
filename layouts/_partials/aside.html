@@ -1,0 +1,63 @@
+{{ $avatar := site.Params.author.avatar_url }}
+{{ $name := site.Params.author.name }}
+{{ $bio := site.Params.author.bio }}
+
+{{ $sidebarStyles := slice
+  "fixed right-0 min-h-dvh w-90 ml-auto mr-0 p-7"
+  "starting:open:translate-x-full open:translate-x-0 not-open:translate-x-full"
+  "transition-all transition-discrete duration-300 ease-in-out"
+  "bg-gray-100"
+}}
+
+
+<dialog class="{{ delimit $sidebarStyles " " }}" id="sidebar" closedby="any">
+  <button
+    class="float-right"
+    aria-label="Open sidebar"
+    command="close"
+    commandfor="sidebar"
+  >
+    {{ partial "icons/lucide-close.html" . }}
+  </button>
+  <figure>
+    <img
+      class="size-24 rounded-full"
+      src="{{ $avatar }}"
+      alt="Picture"
+      title="That's me, {{ $name }}."
+    />
+  </figure>
+  <div class="my-6">
+    <h1 class="my-4 text-xl font-thin">Hi, I'm {{ $name }}.</h1>
+    <p class="text-xs/relaxed text-gray-500">{{ $bio }}</p>
+  </div>
+
+  {{ $links := slice }}
+  {{ range site.Params.social_links }}
+    {{ if and (reflect.IsMap .) (isset . "name") (isset . "url") }}
+      {{ $links = $links | append . }}
+    {{ end }}
+  {{ end }}
+
+  {{ with $links }}
+    {{ $styles := slice
+      "text-xs font-bold tracking-widest text-gray-400 uppercase"
+      "py-2 border-b border-gray-200"
+    }}
+    <nav>
+      <h6 class="{{ delimit $styles " " }}">Follow me on</h6>
+      <ul class="mt-2">
+        {{ range . }}
+          <li>
+            <a
+              class="text-lavender-500 text-sm"
+              target="_blank"
+              href="{{ .url }}"
+              >{{ .name }}</a
+            >
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+  {{ end }}
+</dialog>

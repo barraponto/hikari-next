@@ -2,9 +2,6 @@ baseURL = "https://example.org/"
 locale = "en-us"
 title = "My New Hugo Project"
 
-[params]
-author = "Capi Huamani"
-
 # needed because exampleSite is in a subdirectory of the theme's root
 [module]
 [[module.imports]]

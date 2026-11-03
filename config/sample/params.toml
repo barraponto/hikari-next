@@ -1,2 +1,15 @@
 description = "Hugo site demo for Hikari theme"
 theme_color = "#634ceb"
+
+[author]
+name = "Capi Huamani"
+bio = "Web Developer, Web Designer, Web Scraper. Consultor em tecnologias Livres para Web. Contribuidor Drupal, Scrapy, Javascript."
+avatar_url = "https://avatars.githubusercontent.com/u/134005?v=4"
+
+[[social_links]]
+name = "Github"
+url = "https://github.com/barraponto"
+
+[[social_links]]
+name = "Mastodon"
+url = "https://computerfairi.es/@barraponto"
